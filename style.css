@@ -9,6 +9,7 @@ border-image: linear-gradient(140deg, red, blue )2;
 h1 {
     text-align: center;
     margin-bottom: 150px;
+
 }
 
 p {
@@ -23,6 +24,7 @@ div {
 }
 
 button {
+    
     border: none;
     font-size: 3rem;
     margin: 0 .5rem;
@@ -30,6 +32,8 @@ button {
     cursor: pointer;
     background-color: black;
     border-radius: 5px;
+
+    
 }
 
 
