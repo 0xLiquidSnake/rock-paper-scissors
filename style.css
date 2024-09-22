@@ -1,0 +1,59 @@
+body {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 2rem;
+border: 10px solid;
+border-image: linear-gradient(140deg, red, blue )2;
+}
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+p {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    margin: 40px;
+}
+div {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    border: none;
+    font-size: 3rem;
+    margin: 0 .5rem;
+    padding: .5rem;
+    cursor: pointer;
+    background-color: black;
+    border-radius: 5px;
+}
+
+
+button:hover {
+    opacity: .5;
+    transition: all .3s ease-in-out;
+}
+
+#rock {
+    background-color: red;
+}
+
+#papers {
+    background-color: rgb(56, 56, 241);
+}
+
+#scissors {
+    background-color: rgb(66, 161, 11);
+}
+
+#user-score {
+    color: green;
+}
+
+#computer-score {
+    color: red;
+}
